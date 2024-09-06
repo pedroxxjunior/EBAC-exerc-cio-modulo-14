@@ -1,0 +1,62 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(7, 7, 190);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(7, 7, 190);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produto .nav-link.active:hover {
+    color: #fff;
+}
+
+
+.nav-toggler {
+    background-color: rgb(162, 162, 243);
+}
+
+.section-title {
+    font-family: "Fjalla One", sans-serif;
+}
+
+#sobre-o-PJ-Material-de-construção, #produto {
+    background-color: rgb(162, 162, 243);
+}
+
+.text-colored {
+    color: rgb(7, 7, 190);
+}
+
+.nav-produto .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(7, 7, 190);
+    color: #fff;
+}
+
+.nav-produto .nav-link:hover {
+    color: rgb(7, 7, 190);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
